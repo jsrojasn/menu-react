@@ -1,0 +1,21 @@
+.menu-container {
+	max-width: 760px;
+	margin: 0 auto;
+
+}
+.menu-item-container  {
+	display:  flex;
+	border: 1px solid black;
+	cursor: pointer;
+	justify-content: space-between;
+	padding: 20px 30px;
+}
+
+.menu-item-container.open {
+	background-color: #0af;
+}
+.menu-item-container:hover:not(.open) {
+	background-color: #f2f2f2;
+}
+
+
